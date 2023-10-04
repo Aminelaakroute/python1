@@ -91,7 +91,7 @@ print(liste)
 
 import random
 liste_nombre_aleatoire = [random.randint(1, 100) for _ in range(10)]  # sort methode de tri
-print("liste aleatoire :",liste_nombre_aleatoire)
+print("liste aleatoire :", liste_nombre_aleatoire)
 liste_nombre_aleatoire.sort()
 print("liste aleatoire triée croissante  :",liste_nombre_aleatoire)
 liste_nombre_aleatoire.sort(reverse=True)
