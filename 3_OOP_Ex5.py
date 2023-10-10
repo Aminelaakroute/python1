@@ -40,7 +40,7 @@ class Rectangle(Shape):
         return self._width * self._height
 
     def perimeter(self):
-        return 2 * self._width * self._height
+        return 2 * (self._width + self._height)
 
 
 # Generic function to display details about a shape
