@@ -14,8 +14,8 @@ E1 = Employee("amine", 23, "informatique", True)
 E2 = Employee("ahmed", 25, "physics", False)
 
 print("Employee    Age     department    is_manager")
-print(E1.name, "     ", E1.age,"    ", E1.department, "", E1.is_manager)
-print(E2.name, "     ", E2.age,"    ", E2.department, "     ", E2.is_manager)
+print(E1.name, "     ", E1.age, "    ", E1.department, "", E1.is_manager)
+print(E2.name, "     ", E2.age, "    ", E2.department, "     ", E2.is_manager)
 
 
 print("______________________________________________________________")
