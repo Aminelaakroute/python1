@@ -31,3 +31,4 @@ def Info2():
     print("Hola Mundo !!")
     time.sleep(2)
     print("Cómo estás !!")
+print("-" * 50)
