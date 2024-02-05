@@ -9,28 +9,32 @@ def Decorator(func):
         func()
         print(">Execution Completed {}".format(datetime.today().strftime("%Y-%m-%d %H:%M:%S")))
 
-    return wrapper()
+    return wrapper
 
 
 @Decorator
-def Info():
+def Info_1():
     print("Hello World !!")
     time.sleep(2)
     print("How are you !!")
 
 
 @Decorator
-def Info1():
+def Info_2():
     print("Bonjour le monde !!")
     time.sleep(2)
     print("Comment vas-tu !!")
 
 
 @Decorator
-def Info2():
+def Info_3():
     print("Hola Mundo !!")
     time.sleep(2)
     print("Cómo estás !!")
 
+
+Info_1()
+Info_2()
+Info_3()
 
 print("-" * 50)
